@@ -2,6 +2,7 @@ var friends = require('../data/friends.js');
 
 module.exports = function (app) {
     app.get('/api/friends', function (req, res) {
+        console.log(req);
         res.json(friends);
     });
 
@@ -16,7 +17,8 @@ module.exports = function (app) {
         };
 
         //we take result of the users survey POST + parse it
-        var userData = req.Body;
+        var userData = req.body;
+        console.log(userData);
         var userScores = userData.scores;
 
         //will calculate the diff btw the user's scores + scores of each user in db
@@ -32,7 +34,7 @@ module.exports = function (app) {
             for (var j = 0; j < friends[i].scores[j]; j++) {
 
                 //cal the diff btw the scores+sum them into the totalDifference
-                totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]);
+                totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
 
                 //if the sum of diff < then the diff of the current "best match"
                 if (totalDifference <= bestMatch.friendDifference) {
