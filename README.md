@@ -11,10 +11,10 @@ How to use:
         -survey asks you 10 ?s and then matches with you with your best fit
 
 3. Here are some screenshoots:
- 
+ ![screen shot 2018-08-11 at 5 42 10 pm](https://user-images.githubusercontent.com/36605965/43997378-29202bfc-9da7-11e8-88da-6d8ef2b84334.png)
 
-![screen shot 2018-08-11 at 5 54 41 pm](https://user-images.githubusercontent.com/36605965/43997306-32f86286-9da5-11e8-9f78-4520d9d8bcbc.png)
+![screen shot 2018-08-11 at 5 54 41 pm](https://user-images.githubusercontent.com/36605965/43997381-3dfee842-9da7-11e8-8c24-a7ab02bb81b2.png)
 
-
+![screen shot 2018-08-11 at 5 58 24 pm](https://user-images.githubusercontent.com/36605965/43997384-5bd1db04-9da7-11e8-854a-31f21b58860d.png)
 
 This Project in maintained by peter6468 and users can contact him to get help.
